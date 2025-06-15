@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .dark-blue {
     background-color: #1F2937;
 }
@@ -74,11 +78,7 @@ h2 {
     height: 35px;
     font-weight: 600;
     font-size: 16px;
-    border-width: 0;
-}
-
-button:active {
-  border-style: outset;
+    border-style: solid;
 }
 
 .big-image {
